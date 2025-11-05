@@ -1,12 +1,11 @@
-Structed data and Scraper for Toronto's [housing dashboard](https://www.toronto.ca/city-government/data-research-maps/toronto-housing-data-hub/housing-data/) data
+Scraper for Toronto's [housing dashboard](https://www.toronto.ca/city-government/data-research-maps/toronto-housing-data-hub/housing-data/) data
 
-Built as a handy utility to get JSON from Toronto's public housing dashboard page. 
-Intended to be used lightly, as the dashboard updates. 
+Built as a handy utility to get structured JSON data from Toronto's public housing dashboard page.
 
-Please respect the city's web endpoint, when using this library.
+Intended to be used lightly, as the dashboard updates infrequently. Please respect the city's web endpoint and [their terms](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-licence/).
 
 ### Output format
-The data outputs can be viewed in `./data`
+The data outputs can be viewed in the [`./data`](https://github.com/spencermountain/TO-housing-dashboard/tree/main/data) directory.
 
 Results are split in two parts- `cards` and `wards`:
 
@@ -42,9 +41,9 @@ Results are split in two parts- `cards` and `wards`:
 ---
 
 ### Usage:
-written in Node
+written in Node using playwright.
 
-this webpage loads slowly, so please wait 10-15 seconds for it to load.
+this webpage loads slowly, so please wait 10-15 seconds as it loads.
 
 to run:
 ```
